@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona z footer i main</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #00fcc5;
+            color: rgb(0, 0, 0);
+            padding: 10px 0;
+            text-align: center;
+        }
+        .słoń {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .pingwin {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .tygrys {
+            font-size: 20px;
+        }
+        .małpa {
+            display: flex;
+            gap: 10px;
+        }
+        .małpa a {
+            text-decoration: none;
+            color: #333;
+            font-size: 30px;
+        }
+        footer {
+            background-color: #09ffca;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 10px 0;
+        }
+        .goryl {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Siemanko strona z footer i main</h1>
+    </header>
+    <div class="słoń">
+        <main class="pingwin">
+            <div class="tygrys">
+                <p>Telefon: <a href="tel:+48123456789">+48 123 456 789</a></p>
+            </div>
+            <div class="małpa">
+                <a href="https://www.instagram.com/ppw_news/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://m.facebook.com/people/Technikum-im-Jana-Zamoyskiego-w-Zwierzy%C5%84cu/100038756511179/?locale=pl_PL" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </main>
+        <footer class="goryl">
+            <p>Autor: Igor Czuryło &copy; 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
